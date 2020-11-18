@@ -44,10 +44,10 @@
           <!-- Left -->
           <ul class="navbar-nav mr-auto ml-5 ">
             <li class="nav-item ">
-              <a class=" waves-effect  btn btn-primary" href="Inicio.html" target="_blank">Inicio</a>
+                <a class=" waves-effect  btn btn-primary" href="../index.php" target="_blank">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class=" waves-effect btn btn-primary " href="registro.html" target="_blank">Registro</a>
+                <a class=" waves-effect btn btn-primary " href="registro.php" target="_blank">Registro</a>
             </li>
 
           </ul>
@@ -66,16 +66,16 @@
       <!-- Default form register -->
       <form class="text-center border border-light p-5 mt-5 align-self-center" action="#!">
 
-        <h2 class=" mb-4 display-4">Sign up</h2>
+        <h2 class=" mb-4 display-4">Registrarse</h2>
 
         <div class="form-row mb-4">
           <div class="col">
             <!-- First name -->
-            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Nombre">
           </div>
           <div class="col">
             <!-- Last name -->
-            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Apellidos">
           </div>
         </div>
 
@@ -83,15 +83,15 @@
         <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
 
         <!-- Password -->
-        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password"
+        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Contraseña"
           aria-describedby="defaultRegisterFormPasswordHelpBlock">
         <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
-          At least 8 characters and 1 digit
+         Al menos 8 caracteres y 1 dígito
         </small>
 
 
         <!-- Sign up button -->
-        <button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+        <button class="btn btn-info my-4 btn-block" type="submit">Registrar</button>
 
 
 

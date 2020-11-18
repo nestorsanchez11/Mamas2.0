@@ -71,7 +71,7 @@
         
           </header>
 
-          <main class="row mt-5 bg-primary">
+          <main class="row mt-5 ">
             
             <div class="container">
             <div class="card mt-5">

@@ -45,10 +45,10 @@
           <!-- Left -->
           <ul class="navbar-nav mr-auto ml-5 ">
             <li class="nav-item ">
-              <a class=" waves-effect  btn btn-primary" href="Inicio.html" target="_blank">Inicio</a>
+                <a class=" waves-effect  btn btn-primary" href="index.php" target="_blank">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class=" waves-effect btn btn-primary " href="registro.html" target="_blank">Registro</a>
+                <a class=" waves-effect btn btn-primary " href="Vistas/registro.php" target="_blank">Registro</a>
             </li>
             
           </ul>
@@ -67,21 +67,21 @@
  <!-- Default form login -->
 <form class="text-center border border-light p-5 mt-5 col-md-4 mx-auto" action="#!">
 
-  <h2 class=" mb-4 display-4">Sign in</h2>
+  <h2 class=" mb-4 display-4">Iniciar sesión</h2>
 
   <!-- Email -->
   <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
 
   <!-- Password -->
-  <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+  <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Contraseña">
 
   
   <!-- Sign in button -->
-  <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+  <button class="btn btn-info btn-block my-4" type="submit">Iniciar</button>
 
   <!-- Register -->
-  <p>Not a member?
-      <a href="registro.html">Register</a>
+  <p>No estas registrado?
+      <a href="Vistas/registro.php">Registrar</a>
   </p>
 
   <!-- Social login -->
